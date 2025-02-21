@@ -6,8 +6,7 @@ void primeNumber(int n){
         cout<<"Please, enter a valid Number"<<endl;
     }
     else{
-     for(int i =1 ; i<+42; i++){ 
-        //for(int i =1 ; i*i<+42; i++){
+     for(int i =1 ; i<+42; i++){    //for(int i =1 ; i*i<+42; i++){
         if(n % i == 0){
             cout<<i<<endl;
         }
